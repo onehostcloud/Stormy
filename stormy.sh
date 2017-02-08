@@ -93,8 +93,8 @@ read INPUT
 ## ask for hsnick at some point, and set it ("Set a nickname for this hidden service? [Y/n]")
 
     if [ "$INPUT" -eq 1 ]; then
-        hstype=$(basic)
-        basic
+        hstype=$(seance)
+        seance
 
     elif [ "$INPUT" -eq 2 ]; then
         hstype=$(ghost)
